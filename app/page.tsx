@@ -6,7 +6,7 @@ export default function Home() {
       <section id="about">
         <h2 className="text-lg font-semibold mb-5 mt-10">About</h2>
         <p className="mb-4">
-          I&apos;m a Software Engineer and CEO of Proforms. I&apos;m originally from Oyo State, Nigeria. I owe much of my career to the Web Development, striving toward open source.
+          I&apos;m a Software Engineer and CEO of <a href="https://www.google.com/search?q=proforms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Proforms</a>. I&apos;m originally from Oyo State, Nigeria. I owe much of my career to the Web Development, striving toward open source.
         </p>
         <p className="mb-4">
           I spent my early years learning and exploring web technologies, developing a passion for creating beautiful and functional digital experiences. My journey in tech has been driven by curiosity and a desire to build tools that make a difference.
