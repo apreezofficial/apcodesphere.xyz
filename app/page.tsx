@@ -1,7 +1,102 @@
+export interface Project {
+  id: string;
+  dbId?: number;
+  title: string;
+  date: string;
+  description: string;
+  tech: string[];
+  category: string[];
+  slug: string;
+}
+
+export const projects: Project[] = [
+  {
+    id: "proj-1",
+    dbId: 27,
+    title: "Proforms",
+    date: "July 2025",
+    description:
+      "Proforms is a dynamic form builder and data collection platform designed for rapid deployment.",
+    tech: ["PHP", "MySQL", "Next.js", "Livewire", "Blade", "Tailwind CSS"],
+    category: ["Fullstack", "Frontend", "Backend"],
+    slug: "proforms",
+  },
+  {
+    id: "proj-itrust",
+    title: "iTrust Rapid Logistics",
+    date: "March 2026",
+    description:
+      "A high-performance shipment and logistics platform based in Nigeria, featuring real-time tracking.",
+    tech: ["PHP", "Laravel", "MySQL", "Node.js", "Socket.io", "Twilio", "Resend"],
+    category: ["Fullstack", "Logistics", "SaaS"],
+    slug: "itrust-rapid-logistics",
+  },
+  {
+    id: "proj-1-5",
+    dbId: 34,
+    title: "Agreonpay",
+    date: "February 1, 2026",
+    description: "Complete Farm-to-Market App. Connecting farmers, vendors, and consumers.",
+    tech: ["PHP", "React Native", "MySQL", "Node.js", "OpenAI API"],
+    category: ["Fullstack", "Backend", "Mobile"],
+    slug: "agreonpay",
+  },
+  {
+    id: "proj-3",
+    dbId: 33,
+    title: "Brilliance Healthcare Academy",
+    date: "January 12, 2026",
+    description: "An end-to-end e-learning platform for a UK-based institution with Stripe payments.",
+    tech: ["PHP", "MySQL", "Laravel", "Stripe", "Proforms"],
+    category: ["Fullstack", "Frontend", "Backend"],
+    slug: "brilliance-healthcare",
+  },
+  {
+    id: "proj-apanalytics",
+    title: "APAnalytics",
+    date: "January 2026",
+    description:
+      "A privacy-first, cookie-free Google Analytics alternative trusted by 12,000+ sites.",
+    tech: ["PHP", "Next.js", "PostgreSQL", "Tailwind CSS", "TypeScript"],
+    category: ["Fullstack", "SaaS", "Developer Tool"],
+    slug: "apanalytics",
+  },
+];
+
 export default function Home() {
   return (
     <main className="max-w-2xl mx-auto px-5 py-16">
-
+      <section id="projects">
+        <h2 className="text-lg font-semibold mb-5 mt-10">Few of What I Have Done</h2>
+        <div className="space-y-8 mt-6">
+          {projects.map((project) => (
+            <div key={project.id}>
+              <p className="font-medium">
+                <a
+                  href={`https://preciousadedokun.com.ng/projects/${project.slug}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  {project.title}
+                </a>
+              </p>
+              <p className="text-gray-600 mt-1 text-sm">{project.date}</p>
+              <p className="text-gray-700 mt-2 line-clamp-2">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mt-3">
+                {project.tech.slice(0, 3).map((t, i) => (
+                  <span
+                    key={i}
+                    className="px-2 py-1 text-xs bg-gray-100 rounded text-gray-600"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section id="about">
         <h2 className="text-lg font-semibold mb-5 mt-10">About</h2>
