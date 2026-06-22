@@ -7,6 +7,7 @@ export interface Project {
   tech: string[];
   category: string[];
   slug: string;
+  directUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -61,6 +62,26 @@ export const projects: Project[] = [
     category: ["Fullstack", "SaaS", "Developer Tool"],
     slug: "apanalytics",
   },
+  {
+    id: "proj-idoff",
+    title: "Idoff Enterprise (in dev)",
+    date: "2026",
+    description: "Enterprise solution for businesses, churches, and schools to manage sign-ins and attendance.",
+    tech: [],
+    category: [],
+    slug: "",
+    directUrl: "https://enterprise.idoff.net",
+  },
+  {
+    id: "proj-velocars",
+    title: "Velocars Rentals (in dev)",
+    date: "2026",
+    description: "Full rental car organization platform for managing vehicle rentals.",
+    tech: [],
+    category: [],
+    slug: "",
+    directUrl: "https://dev.veloautos.com",
+  },
 ];
 
 export default function Home() {
@@ -73,7 +94,7 @@ export default function Home() {
             <div key={project.id}>
               <p className="font-medium">
                 <a
-                  href={`https://preciousadedokun.com.ng/projects/${project.slug}`}
+                  href={project.directUrl || `https://preciousadedokun.com.ng/projects/${project.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
@@ -83,16 +104,6 @@ export default function Home() {
               </p>
               <p className="text-gray-600 mt-1 text-sm">{project.date}</p>
               <p className="text-gray-700 mt-2 line-clamp-2">{project.description}</p>
-              <div className="flex flex-wrap gap-2 mt-3">
-                {project.tech.slice(0, 3).map((t, i) => (
-                  <span
-                    key={i}
-                    className="px-2 py-1 text-xs bg-gray-100 rounded text-gray-600"
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
             </div>
           ))}
         </div>
