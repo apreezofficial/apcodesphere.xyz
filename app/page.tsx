@@ -1,4 +1,4 @@
-export interface Project {
+interface Project {
   id: string;
   dbId?: number;
   title: string;
@@ -10,7 +10,7 @@ export interface Project {
   directUrl?: string;
 }
 
-export const projects: Project[] = [
+const projects: Project[] = [
   {
     id: "proj-1",
     dbId: 27,
