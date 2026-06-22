@@ -173,6 +173,9 @@ export default function Home() {
 
       <footer className="mt-16 text-sm text-gray-500 dark:text-gray-400">
         <p>Still developing this page</p>
+        <p className="mt-4">
+          Want more about me? Check out my <a href="https://preciousadedokun.com.ng" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">main portfolio</a>
+        </p>
       </footer>
     </main>
   );
