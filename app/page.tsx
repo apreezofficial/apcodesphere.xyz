@@ -30,6 +30,41 @@ export default function Home() {
             </li>
           </ul>
         </section>
+        <section>
+          <h2 className="text-xl font-semibold mb-4">Connect</h2>
+          <ul className="space-y-4">
+            <li>
+              <a
+                href="https://github.com/apreezofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline dark:text-blue-400"
+              >
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline dark:text-blue-400"
+              >
+                YouTube
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://proforms.top"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline dark:text-blue-400"
+              >
+                Proforms
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </main>
   );
