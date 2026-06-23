@@ -7,6 +7,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Precious Adedokun",
   description: "Portfolio of Precious Adedokun",
+  icons: {
+    icon: "https://www.preciousadedokun.com.ng/icon.png",
+  },
+  openGraph: {
+    title: "Precious Adedokun",
+    description: "Portfolio of Precious Adedokun",
+    images: [
+      {
+        url: "/image.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
