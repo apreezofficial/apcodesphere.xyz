@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "Portfolio of Precious Adedokun",
     images: [
       {
-        url: "/image.png",
+        url: "https://apcodesphere.xyz/image.png",
       },
     ],
   },
