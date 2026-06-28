@@ -28,6 +28,11 @@ export default function Home() {
                 Uses
               </Link>
             </li>
+            <li>
+              <Link href="/my-xyzs" className="text-blue-600 hover:underline dark:text-blue-400">
+                My .xyz's
+              </Link>
+            </li>
           </ul>
         </section>
         <section>
