@@ -20,6 +20,12 @@ export default function MyXyzs() {
       description: 'A manifesto of sorts. I suddenly felt the urge to leave the development aspect of tech, and this is where I aim to drag people to go with me. A project about stepping away and finding meaning beyond code.',
       url: 'https://iwasadev.xyz',
     },
+    {
+      domain: 'apval.xyz',
+      title: 'apVal',
+      description: 'A Valentine\'s Day project for sending love letters, music cards, and heartfelt messages. Built just for the fun of it around the time I fell in love with Next.js. A playful exploration of what web development could be when romance meets code.',
+      url: 'https://apval.xyz',
+    },
   ];
 
   return (
