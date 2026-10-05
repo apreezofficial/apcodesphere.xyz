@@ -15,6 +15,9 @@ export default function About() {
       <p className="mb-4">
         I spent my early years learning and exploring web technologies, developing a passion for creating beautiful and functional digital experiences. My journey in tech has been driven by curiosity and a desire to build tools that make a difference.
       </p>
+      <p className="mb-4">
+        Currently, I am working remotely as a developer for an international company, Geeks Global. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale. Below is a look at my journey and past experiences:
+      </p>
       <div className="space-y-8 mt-6">
         <div>
           <p className="font-medium">
