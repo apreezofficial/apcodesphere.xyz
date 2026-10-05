@@ -1,4 +1,10 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'BgRemoved App - Download APK | Apcodesphere',
+  description: 'Download the BgRemoved Android APK directly. An open-source application built by Apcodesphere.',
+};
 
 export default function BgRemoved() {
   return (
