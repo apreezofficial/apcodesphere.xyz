@@ -18,6 +18,14 @@ export default function About() {
       <p className="mb-4">
         Currently, I am working remotely as a developer for an international company, <a href="https://geeksglobal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale. Below is a look at my journey and past experiences:
       </p>
+      <p className="mb-4">
+        For over a year, I have been ranking for keywords like{' '}
+        <a href="https://www.google.com/search?q=best+web+developer+in+nigeria" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">best web developer in nigeria</a>,{' '}
+        <a href="https://www.google.com/search?q=best+web+developer+in+africa" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">best web developer in africa</a>,{' '}
+        <a href="https://www.google.com/search?q=web+developer+in+nigeria" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">web developer in nigeria</a>, and{' '}
+        <a href="https://www.google.com/search?q=seo+expert+in+nigeria" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">seo expert in nigeria</a>{' '}
+        among others.
+      </p>
       <div className="space-y-8 mt-6">
         <div>
           <p className="font-medium">
