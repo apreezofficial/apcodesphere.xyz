@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     description: 'Download the BgRemoved Android APK directly. An open-source application built by Apcodesphere.',
     images: [
       {
-        url: 'https://apcodesphere.xyz/image.png',
+        url: 'https://opengraph.githubassets.com/1/apreezofficial/bgremoved',
         width: 1200,
-        height: 630,
-        alt: 'BgRemoved App',
+        height: 600,
+        alt: 'BgRemoved App GitHub Repository',
       },
     ],
   },
