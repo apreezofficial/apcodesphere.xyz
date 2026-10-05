@@ -16,7 +16,7 @@ export default function About() {
         I spent my early years learning and exploring web technologies, developing a passion for creating beautiful and functional digital experiences. My journey in tech has been driven by curiosity and a desire to build tools that make a difference.
       </p>
       <p className="mb-4">
-        Currently, I am working remotely as a developer for an international company, Geeks Global. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale. Below is a look at my journey and past experiences:
+        Currently, I am working remotely as a developer for an international company, <a href="https://geeksglobal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale. Below is a look at my journey and past experiences:
       </p>
       <div className="space-y-8 mt-6">
         <div>
@@ -53,7 +53,7 @@ export default function About() {
         </div>
         <div>
           <p className="font-medium">
-            Developer at <a href="https://www.google.com/search?q=Geeks+Global" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>
+            Developer at <a href="https://geeksglobal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>
           </p>
           <p className="text-gray-600 mt-1 dark:text-gray-400">
             Contributed to large-scale web applications serving thousands of users. Implemented cutting-edge technologies and architectures to solve complex business challenges.
