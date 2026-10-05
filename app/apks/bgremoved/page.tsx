@@ -4,6 +4,18 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'BgRemoved App - Download APK | Apcodesphere',
   description: 'Download the BgRemoved Android APK directly. An open-source application built by Apcodesphere.',
+  openGraph: {
+    title: 'BgRemoved App - Download APK',
+    description: 'Download the BgRemoved Android APK directly. An open-source application built by Apcodesphere.',
+    images: [
+      {
+        url: 'https://apcodesphere.xyz/image.png',
+        width: 1200,
+        height: 630,
+        alt: 'BgRemoved App',
+      },
+    ],
+  },
 };
 
 export default function BgRemoved() {
