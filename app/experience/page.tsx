@@ -20,7 +20,7 @@ export default function Experience() {
       <div className="space-y-8 mt-6">
         <div>
           <p className="font-medium">
-            Developer at <a href="https://geeksglobal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>
+            Developer at <a href="https://geeksglobalworld.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>
           </p>
           <p className="text-gray-600 mt-1 dark:text-gray-400">
             Contributed to large-scale web applications serving thousands of users. Implemented cutting-edge technologies and architectures to solve complex business challenges.

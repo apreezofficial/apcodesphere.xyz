@@ -16,7 +16,7 @@ export default function About() {
         I spent my early years learning and exploring web technologies, developing a passion for creating beautiful and functional digital experiences. My journey in tech has been driven by curiosity and a desire to build tools that make a difference.
       </p>
       <p className="mb-4">
-        Currently, I am working remotely as a developer for an international company, <a href="https://geeksglobal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale.
+        Currently, I am working remotely as a developer for an international company, <a href="https://geeksglobalworld.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">Geeks Global</a>. It's been an incredible opportunity to tackle complex challenges and build impactful solutions on a larger scale.
       </p>
       <p className="mb-4">
         For over a year, I have been ranking for keywords like{' '}
