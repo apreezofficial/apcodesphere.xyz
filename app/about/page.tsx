@@ -68,6 +68,21 @@ export default function About() {
           </p>
         </div>
       </div>
+      
+      <div className="mt-12">
+        <h2 className="text-2xl font-bold mb-4">Hobbies & Interests</h2>
+        <p className="mb-4 text-gray-700 dark:text-gray-300">
+          When I'm not writing code or building products, you can usually find me:
+        </p>
+        <ul className="list-disc list-inside space-y-2 mb-6 text-gray-700 dark:text-gray-300">
+          <li>Playing Subway Surfers</li>
+          <li>Working out in the gym</li>
+          <li>Vibecoding to build cool stuff</li>
+        </ul>
+        <p className="mb-4 text-gray-700 dark:text-gray-300">
+          Also, whenever I'm bored, I love writing down my thoughts and sharing notes at <a href="https://penna.dev/apcodesphere" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline dark:text-blue-400">penna.dev/apcodesphere</a>. Check it out!
+        </p>
+      </div>
     </main>
   );
 }
