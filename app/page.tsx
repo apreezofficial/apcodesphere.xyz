@@ -14,6 +14,11 @@ export default function Home() {
               </Link>
             </li>
             <li>
+              <Link href="/experience" className="text-blue-600 hover:underline dark:text-blue-400">
+                Experience
+              </Link>
+            </li>
+            <li>
               <Link href="/few-of-my-works" className="text-blue-600 hover:underline dark:text-blue-400">
                 Few of My Works
               </Link>

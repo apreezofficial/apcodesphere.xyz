@@ -104,7 +104,14 @@ export default function FewOfMyWorks() {
           ← Back to Home
         </Link>
       </nav>
-      <h1 className="text-2xl font-bold mb-10">Few of My Works</h1>
+      <h1 className="text-2xl font-bold mb-6">Few of My Works</h1>
+      
+      <div className="bg-yellow-50 dark:bg-yellow-900/30 border-l-4 border-yellow-400 p-4 mb-8">
+        <p className="text-sm text-yellow-700 dark:text-yellow-400">
+          I barely update this page (about once in 3 months) so check <a href="https://preciousadedokun.com.ng" target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline">preciousadedokun.com.ng</a> for the latest update.
+        </p>
+      </div>
+
       <div className="space-y-8">
         {projects.map((project) => (
           <div key={project.id}>
