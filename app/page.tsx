@@ -1,10 +1,15 @@
 import Link from 'next/link';
+import { NowListening } from '@/components/NowListening';
 
 export default function Home() {
   return (
     <main className="max-w-2xl mx-auto px-5 py-16">
       <h1 className="text-3xl font-bold mb-10">Precious Adedokun</h1>
       <div className="space-y-8">
+        <section>
+          <h2 className="text-xl font-semibold mb-4">Now Listening</h2>
+          <NowListening />
+        </section>
         <section>
           <h2 className="text-xl font-semibold mb-4">Explore</h2>
           <ul className="space-y-4">

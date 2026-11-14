@@ -30,6 +30,7 @@ async function getAccessToken(): Promise<string> {
 }
 
 type SpotifyTrack = {
+  id: string;
   name: string;
   external_urls: { spotify: string };
   artists: { name: string }[];
@@ -38,6 +39,7 @@ type SpotifyTrack = {
 
 function toPayload(track: SpotifyTrack) {
   return {
+    id: track.id,
     title: track.name,
     artist: track.artists.map((a) => a.name).join(', '),
     album: track.album.name,

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { NowListening } from '@/components/NowListening';
 
 export default function About() {
   return (
@@ -24,7 +23,6 @@ export default function About() {
       </p>
       <div className="mt-12">
         <h2 className="text-2xl font-bold mb-4">Hobbies & Interests</h2>
-        <NowListening />
         <p className="mb-4 text-gray-700 dark:text-gray-300">
           When I'm not writing code or building products, you can usually find me:
         </p>
