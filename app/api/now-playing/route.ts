@@ -6,7 +6,8 @@ export const dynamic = 'force-dynamic';
 export async function GET() {
   try {
     return NextResponse.json(await getNowPlaying());
-  } catch {
-    return NextResponse.json({ isPlaying: false, track: null, error: true });
+  } catch (err) {
+    // Message names the failing step (e.g. missing env vars or token status); no secrets.
+    return NextResponse.json({ isPlaying: false, track: null, error: (err as Error).message });
   }
 }
